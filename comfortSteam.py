@@ -3,7 +3,7 @@
 # Wes Delp
 # Internet of Things
 # Comfort Data Stream
-# 07.26.2014
+# 07.28.2014
 
 import time
 import sys
