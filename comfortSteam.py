@@ -60,7 +60,7 @@ def getComfortZone(humidex):
 # Post data to stream and return status
 def post_data(comfortZone, humidex, humidity, lat, light, lon, name, temp, zip):
 	req = requests.get("http://data.sparkfun.com/input/robqvbvK2DIzzzoZX9Q4?" +
-	"private_key=jkz7JzJavoSBBBoAXv80" +
+	"private_key=" +
 	"&comfortzone=" + comfortZone +
 	"&humidex=" + str(humidex) +
 	"&humidity=" + str(humidity) +
